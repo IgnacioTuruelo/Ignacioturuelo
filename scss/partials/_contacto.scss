@@ -1,0 +1,83 @@
+body.contaco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.contach3{
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px;
+  margin: auto;
+  margin-right: 720px;
+  display: flex;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contcontacto{
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 850px;
+  a{
+    margin-right: 410px;
+    font-family: $fuente;
+    font-size: 18px;
+  }
+  input[type="text"]{
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 90px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 380px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  input[type="submit"]{
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 90px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 380px;
+    width: 50%;
+    max-width: 150px;
+    justify-self: center;
+    margin-top: -10px;
+  }
+  input.tercero{
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+  }
+  button{
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 90px;
+    width: 25%;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 360px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+.tucarro{
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tucarroimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 35px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.contsegui{
+  display: center;
+  max-width: 300px;
+  margin-left: 870px;
+  margin-bottom: 25px;
+  margin-top: -10px;
+  .seguicomprandolink{
+    display: inline-block; 
+    background-color:white;
+    border-radius: 20px;
+    border: solid;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  .seguicomprando{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+}

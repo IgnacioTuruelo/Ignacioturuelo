@@ -316,7 +316,7 @@ h3.h3p{
 .sectiond,
 .pcontentd,
 .detailsd {
-  margin-top: -2%;
+  margin-top: -2%; 
 }
 .h3p {
   margin-bottom: 50px;
@@ -339,7 +339,7 @@ h3.h3p{
   display: block;
 }
 .pcontentd{
-  margin-top: 120px;
+    margin-top: 120px; 
 }
 .details,
 .detailsd {
@@ -450,7 +450,7 @@ footer.pnavegacion2 {
   margin-top: -180px;
   margin-left: 40px;
 }
-h2 {
+.quiensomos {
   font-size: 39px;
   text-align: center;
   margin-top: 50px;

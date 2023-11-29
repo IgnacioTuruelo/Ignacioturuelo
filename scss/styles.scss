@@ -1,4 +1,10 @@
 @import "./partials/variables";
+@import "./partials/index";
+@import "./partials/producto";
+@import "./partials/nosotros";
+@import "./partials/contacto";
+@import "./partials/carrito";
+
 
 body{
     background-color: bisque;
@@ -67,200 +73,6 @@ input[type="text"] {
     }
   }
 }
-.novedades-container{
-  background-color: rgb(244, 217, 184);
-  padding-top: 10px;
-  width: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  .novedades{
-    margin-left: 40%;
-    margin-top: 7.5%;
-    font-size: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  .imgnovedades{
-    width: 50%;
-    margin-left: 25%;
-    margin-bottom: 100px;
-    padding-bottom: 90px;
-    padding-top: 20px;
-    .carousel-item{
-      border-radius: 20px;
-      object-fit: cover;
-      .d-block{
-        border-radius: 20px;
-        object-fit: cover;
-      }
-    }
-  }
-}
-.muebles-container{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
-  margin-left: -150px;
-  .divmesas{
-    text-align: center;
-    width: 30%;
-    margin-right: 110px;
-    margin-top: 20px;
-    .mesaindex{
-      margin-bottom: 30px;
-      font-size: 25px;
-      font-family: $fuente;
-    }
-    .contenti{
-      position: relative; 
-      img{
-        width: 100px;
-        border-radius: 15px;
-      }
-      .mesacaracindex{
-        position: absolute;
-        top: 20px;
-        right: -150px;
-        padding: 15px;
-        font-size: 16px;
-        margin-top: -30px;
-        width: 60%; 
-        text-align: left;
-        margin-right: -60px;
-        .precio{
-          font-size: 20px;
-          font-family: $fuente;
-        }
-      }
-    }
-  }
-  .divsillas{
-    text-align: center;
-    width: 30%;
-    margin-right: 110px;
-    margin-top: 20px;
-    margin-left: -400px;
-    .sillaindex{
-      margin-bottom: 30px;
-      font-size: 25px;
-      font-family: $fuente;
-    }
-    .contenti{
-      position: relative; 
-      img{
-        width: 100px;
-        border-radius: 15px;
-      }
-      .sillacaracindex{
-        position: absolute;
-        top: 20px;
-        right: -150px;
-        padding: 15px;
-        font-size: 16px;
-        margin-top: -30px;
-        width: 60%; 
-        text-align: left;
-        margin-right: -60px;
-        .precio{
-          font-size: 20px;
-          font-family: $fuente; 
-        }
-      }
-    }
-  }
-  .divmuebles{
-    text-align: center;
-    width: 30%;
-    margin-right: 110px;
-    margin-top: 20px;
-    .muebleindex{
-      margin-bottom: 30px;
-      font-size: 25px;
-      font-family: $fuente;
-    }
-    .contenti{
-      position: relative; 
-      img{
-        width: 100px;
-        border-radius: 15px;
-      }
-      .mueblecaracindex{
-        position: absolute;
-        top: 20px;
-        right: -150px;
-        padding: 15px;
-        font-size: 16px;
-        margin-top: -30px;
-        width: 60%; 
-        text-align: left;
-        margin-right: -60px;
-        .precio{
-          font-size: 20px;
-          font-family: $fuente;
-        }
-      }
-    }
-  }
-  .divescritorios{
-    text-align: center;
-    width: 30%;
-    margin-right: 110px;
-    margin-top: 20px;
-    margin-left: -400px;
-    .escriindex{
-      margin-bottom: 30px;
-      font-size: 25px;
-      font-family: $fuente;
-    }
-    .contenti{
-      position: relative; 
-      img{
-        width: 100px;
-        border-radius: 15px;
-      }
-      .escricaracindex{
-        position: absolute;
-        top: 20px;
-        right: -150px;
-        padding: 15px;
-        font-size: 16px;
-        margin-top: -30px;
-        width: 60%; 
-        text-align: left;
-        margin-right: -60px;
-        .precio{
-          font-size: 20px;
-          font-family: $fuente;
-        }
-      }
-    }
-  }
-}
-.conttext{
-  width: 70%;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #F4D9B8;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: justify;
-  position: relative;
-  right: -10px;
-  padding-top: 50px;
-  .titulores{
-    font-family: $fuente;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 60px;
-  }
-  .resumen {
-    font-family: $fuente;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
-    text-align: justify;
-  }
-}
 .navegacion2{
   background-color: #DAF7A6;
   display: flex;
@@ -274,7 +86,7 @@ input[type="text"] {
     text-align: center;
     flex-wrap: wrap;
     .contactopietitulo{
-      font-size: 20px;
+      font-size: 25px;
       font-weight: bold;
       margin-bottom: 10px;
       margin-top: -5px;
@@ -291,7 +103,7 @@ input[type="text"] {
     text-align: center;
     flex-wrap: wrap;
     .redespietitulo{
-      font-size: 20px;
+      font-size: 25px;
       font-weight: bold;
       margin-bottom: 10px;
       margin-top: -5px;
@@ -300,12 +112,7 @@ input[type="text"] {
     ul{
       list-style: none;
       padding: 0;
-      li{
-        display: inline;
-        margin-right: 15px;
-      }
     }
 
   }
-  }
-  
+}
