@@ -50,6 +50,10 @@
 .muebles-container .divmesas .contenti img {
   width: 100px;
   border-radius: 15px;
+  transition: transform 0.8 ease;
+}
+.muebles-container .divmesas .contenti img:hover {
+  transform: scale(1.3);
 }
 .muebles-container .divmesas .contenti .mesacaracindex {
   position: absolute;
@@ -84,6 +88,10 @@
 .muebles-container .divsillas .contenti img {
   width: 100px;
   border-radius: 15px;
+  transition: transform 0.8 ease;
+}
+.muebles-container .divsillas .contenti img:hover {
+  transform: scale(1.3);
 }
 .muebles-container .divsillas .contenti .sillacaracindex {
   position: absolute;
@@ -117,6 +125,10 @@
 .muebles-container .divmuebles .contenti img {
   width: 100px;
   border-radius: 15px;
+  transition: transform 0.8 ease;
+}
+.muebles-container .divmuebles .contenti img:hover {
+  transform: scale(1.3);
 }
 .muebles-container .divmuebles .contenti .mueblecaracindex {
   position: absolute;
@@ -151,6 +163,10 @@
 .muebles-container .divescritorios .contenti img {
   width: 100px;
   border-radius: 15px;
+  transition: transform 0.8 ease;
+}
+.muebles-container .divescritorios .contenti img:hover {
+  transform: scale(1.3);
 }
 .muebles-container .divescritorios .contenti .escricaracindex {
   position: absolute;
@@ -216,9 +232,11 @@
   transition: background-color 0.3s ease;
   margin: auto;
   font-size: 30px;
+  transition: transform 0.8 ease;
 }
 .links .href:hover {
   background-color: #d5bb96;
+  transform: scale(1.2);
 }
 
 .main-content {
@@ -594,7 +612,7 @@ input[type=text]:hover {
   color: #333;
 }
 .navegacion .navegacion__nav .nav__item a:hover {
-  color: #654321;
+  color: black;
 }
 .navegacion .navegacion__nav .nav__item a::before {
   font-family: FontAwesome;
