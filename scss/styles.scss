@@ -36,10 +36,20 @@ input[type="text"] {
   box-sizing: border-box;
   margin: 0;
   flex-wrap: wrap;
+  #checkmenu{
+    display: none;
+  }
+  label{
+    display: none;
+  }
   .titulo{
       padding: 10px;
       font-family: Georgia, 'Times New Roman', Times, seri;
       font-size: 50px;
+      a{
+        text-decoration: none;
+        color: #333;
+      }
     }
     form{
       flex: auto;
@@ -62,6 +72,7 @@ input[type="text"] {
       a{
         transition: color 0.3s ease;
         text-decoration: none;
+        color: #333;
         &:hover{
           color: #654321;
         }
@@ -112,7 +123,16 @@ input[type="text"] {
     ul{
       list-style: none;
       padding: 0;
+      a{
+        text-decoration: none;
+        color: #555;
+      }
     }
 
   }
 }
+
+
+
+
+@import "./partials/mediaq";

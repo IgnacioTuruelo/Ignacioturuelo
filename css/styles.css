@@ -406,7 +406,7 @@ body.contaco {
   padding: 50px;
   margin-top: 50px;
   margin: auto;
-  margin-right: 720px;
+  margin-right: 500px;
   display: flex;
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -421,7 +421,7 @@ body.contaco {
   margin: auto;
   display: flex;
   flex-direction: column;
-  margin-left: 850px;
+  margin-left: 600px;
 }
 .contcontacto a {
   margin-right: 410px;
@@ -495,12 +495,13 @@ body.contaco {
 
 .contsegui {
   display: center;
-  max-width: 300px;
-  margin-left: 870px;
+  width: auto;
+  margin-left: 600px;
   margin-bottom: 25px;
   margin-top: -10px;
 }
 .contsegui .seguicomprandolink {
+  text-align: justify;
   display: inline-block;
   background-color: white;
   border-radius: 20px;
@@ -552,10 +553,20 @@ input[type=text]:hover {
   margin: 0;
   flex-wrap: wrap;
 }
+.navegacion #checkmenu {
+  display: none;
+}
+.navegacion label {
+  display: none;
+}
 .navegacion .titulo {
   padding: 10px;
   font-family: Georgia, "Times New Roman", Times, seri;
   font-size: 50px;
+}
+.navegacion .titulo a {
+  text-decoration: none;
+  color: #333;
 }
 .navegacion form {
   flex: auto;
@@ -580,6 +591,7 @@ input[type=text]:hover {
 .navegacion .navegacion__nav .nav__item a {
   transition: color 0.3s ease;
   text-decoration: none;
+  color: #333;
 }
 .navegacion .navegacion__nav .nav__item a:hover {
   color: #654321;
@@ -630,6 +642,90 @@ input[type=text]:hover {
 .navegacion2 .redespie ul {
   list-style: none;
   padding: 0;
+}
+.navegacion2 .redespie ul a {
+  text-decoration: none;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .navegacion label {
+    display: block;
+  }
+  .navegacion .navegacion__nav {
+    display: none;
+  }
+  .navegacion #checkmenu:checked ~ .navegacion__nav {
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .novedades-container {
+    height: 100vh;
+    height: 70vh;
+  }
+  .novedades-container .novedades {
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .muebles-container {
+    display: flex;
+    margin-left: 12.5%;
+  }
+  .muebles-container .divmesas, .muebles-container .divmuebles {
+    margin-right: 600px;
+  }
+  .muebles-container p {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content .pcontent img {
+    margin-right: 800px;
+    margin-bottom: 50px;
+    margin-left: 1000px;
+  }
+  .main-content .pcontentd img {
+    margin-bottom: 35px;
+    margin-left: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contenido {
+    padding: 5%;
+  }
+  .contenido .ultimotexto {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contach3 {
+    margin-left: 90px;
+  }
+  .contcontacto {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .contsegui {
+    margin-left: 190px;
+    padding-bottom: 60px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

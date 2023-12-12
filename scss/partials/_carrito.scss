@@ -16,11 +16,12 @@
 }
 .contsegui{
   display: center;
-  max-width: 300px;
-  margin-left: 870px;
+  width: auto;
+  margin-left: 600px;
   margin-bottom: 25px;
   margin-top: -10px;
   .seguicomprandolink{
+    text-align: justify;
     display: inline-block; 
     background-color:white;
     border-radius: 20px;
