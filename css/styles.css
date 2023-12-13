@@ -55,7 +55,7 @@
 .muebles-container .divmesas .contenti img:hover {
   transform: scale(1.3);
 }
-.muebles-container .divmesas .contenti .mesacaracindex {
+.muebles-container .divmesas .mesacaracindex {
   position: absolute;
   top: 20px;
   right: -150px;
@@ -66,34 +66,35 @@
   text-align: left;
   margin-right: -60px;
 }
-.muebles-container .divmesas .contenti .mesacaracindex .precio {
+.muebles-container .divmesas .mesacaracindex .precio {
   font-size: 20px;
   font-family: "Arial", Helvetica, sans-serif;
 }
-.muebles-container .divsillas {
+
+.divsillas {
   text-align: center;
   width: 30%;
   margin-right: 110px;
   margin-top: 20px;
   margin-left: -400px;
 }
-.muebles-container .divsillas .sillaindex {
+.divsillas .sillaindex {
   margin-bottom: 30px;
   font-size: 25px;
   font-family: "Arial", Helvetica, sans-serif;
 }
-.muebles-container .divsillas .contenti {
+.divsillas .contenti {
   position: relative;
 }
-.muebles-container .divsillas .contenti img {
+.divsillas .contenti img {
   width: 230px;
   border-radius: 15px;
   transition: transform 0.8s ease;
 }
-.muebles-container .divsillas .contenti img:hover {
+.divsillas .contenti img:hover {
   transform: scale(1.3);
 }
-.muebles-container .divsillas .contenti .sillacaracindex {
+.divsillas .contenti .sillacaracindex {
   position: absolute;
   top: 20px;
   right: -150px;
@@ -104,33 +105,34 @@
   text-align: left;
   margin-right: -60px;
 }
-.muebles-container .divsillas .contenti .sillacaracindex .precio {
+.divsillas .contenti .sillacaracindex .precio {
   font-size: 20px;
   font-family: "Arial", Helvetica, sans-serif;
 }
-.muebles-container .divmuebles {
+
+.divmuebles {
   text-align: center;
   width: 30%;
   margin-right: 110px;
   margin-top: 20px;
 }
-.muebles-container .divmuebles .muebleindex {
+.divmuebles .muebleindex {
   margin-bottom: 30px;
   font-size: 25px;
   font-family: "Arial", Helvetica, sans-serif;
 }
-.muebles-container .divmuebles .contenti {
+.divmuebles .contenti {
   position: relative;
 }
-.muebles-container .divmuebles .contenti img {
+.divmuebles .contenti img {
   width: 230px;
   border-radius: 15px;
   transition: transform 0.8s ease;
 }
-.muebles-container .divmuebles .contenti img:hover {
+.divmuebles .contenti img:hover {
   transform: scale(1.3);
 }
-.muebles-container .divmuebles .contenti .mueblecaracindex {
+.divmuebles .contenti .mueblecaracindex {
   position: absolute;
   top: 20px;
   right: -150px;
@@ -141,34 +143,35 @@
   text-align: left;
   margin-right: -60px;
 }
-.muebles-container .divmuebles .contenti .mueblecaracindex .precio {
+.divmuebles .contenti .mueblecaracindex .precio {
   font-size: 20px;
   font-family: "Arial", Helvetica, sans-serif;
 }
-.muebles-container .divescritorios {
+
+.divescritorios {
   text-align: center;
   width: 30%;
   margin-right: 110px;
   margin-top: 20px;
   margin-left: -400px;
 }
-.muebles-container .divescritorios .escriindex {
+.divescritorios .escriindex {
   margin-bottom: 30px;
   font-size: 25px;
   font-family: "Arial", Helvetica, sans-serif;
 }
-.muebles-container .divescritorios .contenti {
+.divescritorios .contenti {
   position: relative;
 }
-.muebles-container .divescritorios .contenti img {
+.divescritorios .contenti img {
   width: 230px;
   border-radius: 15px;
   transition: transform 0.8s ease;
 }
-.muebles-container .divescritorios .contenti img:hover {
+.divescritorios .contenti img:hover {
   transform: scale(1.3);
 }
-.muebles-container .divescritorios .contenti .escricaracindex {
+.divescritorios .contenti .escricaracindex {
   position: absolute;
   top: 20px;
   right: -150px;
@@ -179,7 +182,7 @@
   text-align: left;
   margin-right: -60px;
 }
-.muebles-container .divescritorios .contenti .escricaracindex .precio {
+.divescritorios .contenti .escricaracindex .precio {
   font-size: 20px;
   font-family: "Arial", Helvetica, sans-serif;
 }
