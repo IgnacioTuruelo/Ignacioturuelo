@@ -404,13 +404,15 @@
   padding: 0 20px;
   margin-left: 20px;
 }
-.contenido .ultimotexto {
-  width: 50%;
-  margin-top: -180px;
-  margin-left: 40px;
+.contenido .texto3 {
+  margin-top: -80px;
+  flex: 1;
+  padding-right: 5px;
   font-size: 18px;
   line-height: 1.6;
   text-align: justify;
+  padding: 0 20px;
+  margin-left: 20px;
 }
 .contenido .imagen {
   flex: 0.8;
@@ -440,7 +442,7 @@ body.contaco {
   padding: 50px;
   margin-top: 50px;
   margin: auto;
-  margin-right: 500px;
+  margin-right: 45rem;
   display: flex;
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -615,6 +617,7 @@ input[type=text]:hover {
   justify-content: space-around;
   list-style: none;
   width: 50%;
+  z-index: 100;
 }
 .navegacion .navegacion__nav .nav__item {
   margin-left: 10px;
@@ -686,9 +689,12 @@ input[type=text]:hover {
   color: #555;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
   .navegacion label {
     display: block;
+  }
+  .navegacion label .bx-menu {
+    font-size: 3rem;
   }
   .navegacion .navegacion__nav {
     display: none;
@@ -705,40 +711,71 @@ input[type=text]:hover {
     justify-content: start;
     align-items: start;
   }
+  .navegacion .titulo {
+    font-size: 3rem;
+  }
+  .navegacion form {
+    display: none;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
   .novedades-container {
-    height: 70vh;
+    height: 40vh;
   }
   .novedades-container .novedades {
-    margin-left: 25%;
+    margin-left: 17%;
+    font-size: 3rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
   .muebles-container {
     display: flex;
-    margin-left: 12.5%;
+    margin: 2rem;
+    padding: 1rem;
+    width: 30%;
+    margin-left: 10rem;
   }
-  .muebles-container .divmesas, .muebles-container .divmuebles {
-    margin-right: 600px;
+  .muebles-container .divmesas .contenti img {
+    width: 8rem;
+  }
+  .muebles-container .divsillas .contenti img {
+    width: 8rem;
+  }
+  .muebles-container .divmuebles .contenti img {
+    width: 8rem;
+  }
+  .muebles-container .divescritorios .contenti img {
+    width: 8rem;
   }
   .muebles-container p {
     display: none;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
+  .main-content {
+    display: block;
+  }
+  .main-content .sectioncontainer .section {
+    margin-left: 10px;
+  }
+  .main-content .sectioncontainer .section .h3p {
+    font-size: 1.5rem;
+  }
   .main-content .sectioncontainer .section .pcontent img {
-    width: 200px;
+    width: 10rem;
     margin-left: 0;
     margin-right: 1000px;
     margin-top: -20px;
     margin-bottom: 20px;
   }
+  .main-content .sectioncontainer .sectiond {
+    margin-left: 10px;
+  }
   .main-content .sectioncontainer .sectiond .pcontentd img {
-    width: 200px;
+    width: 10rem;
     margin-left: 0;
     margin-right: 1000px;
     margin-top: -40px;
@@ -746,27 +783,63 @@ input[type=text]:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
   .contenido {
-    padding: 5%;
+    display: block;
   }
-  .contenido .ultimotexto {
-    margin-top: 0px;
+  .contenido img {
+    margin-bottom: 3rem;
+    margin-top: -3rem;
+  }
+  .contenido .texto, .contenido .texto2, .contenido .texto3 {
+    margin-right: 1rem;
+  }
+  .contenido .texto {
+    margin-top: 5rem;
+  }
+  .contenido .texto2 {
+    margin-top: 1rem;
+  }
+  .contenido .texto3 {
+    margin-top: 1rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
   .contach3 {
-    margin-left: 90px;
+    margin-left: 3rem;
+    font-size: 2.5rem;
   }
   .contcontacto {
-    margin-left: 150px;
+    margin-left: 1rem;
+    width: 90%;
+  }
+  .contcontacto button {
+    margin-left: 5rem;
+    width: 60%;
+    height: 7vh;
+    font-size: 1.5rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 430px) {
+  .tucarro {
+    margin-top: 2rem;
+  }
+  .tucarroimg {
+    width: auto;
+  }
   .contsegui {
-    margin-left: 190px;
-    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 1rem;
+    height: 0;
+    text-align: center;
+    margin-bottom: 14rem;
+    margin-top: 2rem;
+  }
+  .contsegui .seguicomprandolink {
+    width: 40%;
+    height: 10vh;
   }
 }
 
